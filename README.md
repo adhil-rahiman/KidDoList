@@ -1,5 +1,10 @@
 KidDoList – Kotlin Multiplatform (Android + iOS)
 
+Demo
+https://github.com/user-attachments/assets/61f93771-5dc1-4473-8fa4-d20e2d732a34
+
+
+
 Modules
 - composeApp: Application entry and navigation (Compose Multiplatform UI).
 - feature-taskBoard: Task List, Add/Edit, and History screens with ViewModels.
