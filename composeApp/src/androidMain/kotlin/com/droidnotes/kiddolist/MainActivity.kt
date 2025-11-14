@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.droidnotes.kiddolist.coredata.TaskRepository
 import com.droidnotes.kiddolist.di.appModule
 import org.koin.android.ext.android.inject
 import org.koin.android.ext.koin.androidContext
@@ -25,8 +24,7 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-        val repository: TaskRepository by inject()
-        setContent { App(repository) }
+        setContent { App() }
     }
 }
 
